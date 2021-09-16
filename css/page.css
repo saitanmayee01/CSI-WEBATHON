@@ -1,0 +1,125 @@
+body {
+    height:100vh;
+    
+     background:black;
+     color:#f5f5f0;
+     min-height: 100vh;
+     font-family: 'Montserrat', sans-serif;
+   }
+  .navbar{
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 100;
+      color: #dfdddd;
+      background-color: black;
+  }
+  hr.heading{
+      width: 30%;
+      background-color: aqua;
+  }
+  
+  
+  
+  h3{
+    /* background: linear-gradient(to right,#f5f5f0,rgb(125, 187, 218));   */
+    border:white;
+    border-radius:5px;
+    
+    position: relative;
+   
+    font-size-adjust: initial;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align:center;  
+
+   
+    padding-top: 100px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bold;
+  }
+  
+  
+  @media only screen and (max-width: 500px) {
+    h3{
+      
+      padding:30px;
+      text-align:center !important;
+      
+    }
+  }
+  #Personal
+  {
+    
+    height:150vh;
+    background:url("https://cdn.wallpapersafari.com/14/3/siJfNX.jpg") no-repeat center center fixed ;
+    background-size: cover;
+  
+  }
+  
+  #About{
+    color:black;
+    height:170vh;
+    background: url("https://images-na.ssl-images-amazon.com/images/I/41g8yeF0NWL._SX425_.jpg") no-repeat center center fixed ;
+    background-size: cover;
+  
+  
+  }
+  
+  
+  #Academics{
+    
+    height:120vh;
+    background: url("https://image.freepik.com/free-vector/technology-network-circuit-connection-background_23-2148497241.jpg") no-repeat center center fixed ;
+    background-size: cover;
+    
+  }
+  #Hobbies{
+    height:120vh;
+    background: url("https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg") no-repeat center center fixed ;
+    background-size: cover; 
+  }
+  
+  #Activities{
+    height:150vh;
+    background: url("https://cdn.wallpapersafari.com/14/3/siJfNX.jpg") no-repeat center center fixed ;
+    background-size: cover; 
+    
+  }
+
+  img.self{
+    max-height:450px;
+  }
+  
+  
+  
+    p{
+      color:white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: medium;
+      text-align: center;
+      margin-left: 10%;
+      margin-right: 10%;
+      margin-top: 4%;
+      line-height:2.4rem;
+      border-left:2px solid #66ccff;    
+      border-right:2px solid #66ccff;
+    }
+    #About p{
+      color:black;
+      border-left:2px solid black;    
+      border-right:2px solid black;
+    }
+   
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+  }
+  .f_social{
+    margin-left: 49%;
+  }
